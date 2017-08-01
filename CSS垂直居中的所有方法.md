@@ -1,10 +1,10 @@
-﻿#CSS垂直居中的所有方法
+﻿# CSS垂直居中的所有方法
 
 标签（空格分隔）： css技巧
 
 ---
 
-##1.利用padding垂直居中(line-height用于单行文本居中)
+## 1.利用padding垂直居中(line-height用于单行文本居中)
 **不需要设置高度 ***
 ```
 .parent {
@@ -14,7 +14,7 @@
 ```
 > [示例](http://js.jirengu.com/jopih/7/edit?html,css,output)
 
-##2.利用table垂直居中（兼容IE）
+## 2.利用table垂直居中（兼容IE）
 **需要设置父元素高度 ***
 ``` html
     <table>
@@ -27,7 +27,7 @@
 ```
 >[示例](http://js.jirengu.com/zipug/6/edit?html,css,output)
 
-##3.利用外部包裹垂直居中
+## 3.利用外部包裹垂直居中
 **需要设置父元素高度 ***
 
 ```
@@ -61,7 +61,7 @@
 
 
 
-##4.div设置table垂直居中
+## 4.div设置table垂直居中
 **需要设置父元素高度 ***
 ```
 <div class="table">
@@ -73,7 +73,7 @@
 ```
 > [示例](http://js.jirengu.com/yuqeg/5/edit)
 
-##5.负margin垂直居中(兼容IE)
+## 5.负margin垂直居中(兼容IE)
 **绝对定位 ***
 **需要设置父子元素高度 ***
 **居中内容过多会出现溢出 ***
@@ -91,7 +91,7 @@
 ```
 > [示例](http://js.jirengu.com/yahev/1/edit)
 
-##6.transform垂直居中
+## 6.transform垂直居中
 **绝对定位 ***
 **需要设置父元素高度 ***
 ```
@@ -105,7 +105,7 @@
 ```
 > [示例](http://js.jirengu.com/ratip/1/edit?html,css,output)
 
-##7.margin:auto垂直居中(兼容IE)
+## 7.margin:auto垂直居中(兼容IE)
 **绝对定位 ***
 **需要设置父子元素高度 ***
 **居中内容过多会出现溢出 ***
@@ -124,7 +124,7 @@
 ```
 > [示例](http://js.jirengu.com/fuheq/2/edit)
 
-##8.flex垂直居中(除IE外都兼容)
+## 8.flex垂直居中(除IE外都兼容)
 **CSS3解决方案 ***
 **需要设置父元素高度 ***
 **真简单~ ***
